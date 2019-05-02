@@ -4,5 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.6
     steps:
-      # シェルスクリプトのコマンド実行
-      - run: echo 'hello world'
+      # ソースコードのチェックアウト
+      - checkout
+      # unittestのコマンド実行
+      - run: python test_calculations.py
