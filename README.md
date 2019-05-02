@@ -1,0 +1,2 @@
+# pypro3-ch10-circleci
+Pythonプロフェッショナルプログラミング第3版の10章「CircleCIで継続的インテグレーション」の演習
